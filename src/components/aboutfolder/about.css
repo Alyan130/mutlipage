@@ -1,0 +1,106 @@
+.about{
+    width: 100%;
+    padding: 60px 0px;
+}
+.atext{
+    color: white;
+    width: 100%;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.atext h1{
+    font-family: var(--fonts);
+    font-size: var(--htext);
+    line-height: var(--hline);
+    margin-bottom: 10px;
+}
+
+.atext span{
+    font-weight: bolder;
+    /* color:  #3DB8A5; */
+    color: rgb(184, 184, 184);
+}
+
+.atext p{
+    font-size: var(--ptext);
+    line-height:var(--pline);
+    margin-bottom: 15px;
+    font-family: serif;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    padding:50px;
+}
+
+.acard{
+    width: 30%;
+    height: 300px;
+    padding: 10px 20px;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+    transition: all ease 0.5s;
+}
+
+.acard:hover{
+    transform: scale(1.06);
+}
+
+.acard .round{
+    padding: 10px;
+    background-color:rgb(33, 32, 32);
+    border-radius: 50%;
+    font-size: 60px;
+}
+
+
+.acard h2{
+    font-family: var(--fonts);
+    font-size:30px;
+    color:  #3DB8A5; 
+}
+
+.acard p{
+    font-size:16px;
+    line-height:28px;
+}
+
+@media(max-width:540px){
+.atext{
+    padding: 0px 40px;
+}
+
+.atext h1{
+    font-size: var(--mheading);
+    line-height: var(--mline);
+
+}
+
+.cards{
+     flex-direction: column;
+     flex-wrap: wrap;
+     gap: 25px;
+     padding: 40px 10px;
+}
+
+.acard{
+width: 300px;
+
+}
+
+}

@@ -1,27 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100;1,14..32,100&family=Orbitron:wght@400..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+:root{
+    --fonts:"Bebas Neue", serif;
+    --htext:70px;
+    --hline:75px;
+    --h2text:24px;
+    --ptext:18px;
+    --pline:30px;
+    --mheading:50px;
+    --mline:60px;
+    --mh2:22px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+body{
+  background-color:#080A0B;
+ }
