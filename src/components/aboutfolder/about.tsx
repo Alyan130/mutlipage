@@ -1,7 +1,7 @@
 import "./about.css"
-import { IoIosTrendingUp } from "react-icons/io";
-import { MdHighQuality } from "react-icons/md";
-import { TbArrowAutofitContentFilled } from "react-icons/tb";
+// import { IoIosTrendingUp } from "react-icons/io";
+// import { MdHighQuality } from "react-icons/md";
+// import { TbArrowAutofitContentFilled } from "react-icons/tb";
 
 
 
@@ -9,7 +9,7 @@ export default function About() {
     interface CardData {
         title: string;
         content: string;
-         icon:any;
+        //  icon:;
         
     }
 
@@ -17,17 +17,17 @@ export default function About() {
         {
             title: "Trending ",
             content: "Assassins Creed Valhalla continues to dominate gaming forums, social media platforms, and live-streaming channels, becoming a cultural phenomenon.",
-            icon:<IoIosTrendingUp/>
+            // icon:<IoIosTrendingUp/>
         },
         {
             title: "High-Quality",
             content: "The game delivers stunning, lifelike environments with realistic lighting and textures that bring the Viking age to life.",
-            icon:<MdHighQuality/>
+            // icon:<MdHighQuality/>
         },
         {
             title: "Cinematic",
             content: "Beyond gameplay, the cinematic narrative and deeply developed characters create a movie-like experience for players.",
-            icon:<TbArrowAutofitContentFilled/>
+            // icon:<TbArrowAutofitContentFilled/>
         },
 
     ];
@@ -47,7 +47,7 @@ export default function About() {
                 {cardData.map((e,index)=>
                 <div key={index} className="acard">
                     <div className={`round ${index==0 ? "text-blue-500" : index==1 ?  "text-red-500" : "text-yellow-500"}`}>
-                {e.icon}
+                {/* {e.icon} */}
                  </div>
                  <h2>{e.title}</h2>
                  <p>{e.content}</p>
