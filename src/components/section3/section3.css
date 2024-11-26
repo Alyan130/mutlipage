@@ -23,7 +23,7 @@ gap: 55px;
 }
 
 .textc{
-    width: 70%;
+    width: 80%;
     text-align: left;
     padding: 10px;
 }
@@ -75,7 +75,7 @@ color: black;
     .subscribe{
     flex-wrap: wrap;
     padding: 5px;  
-    margin-left: 80px;     
+    margin: 0 70px;     
     }
 
     .image{

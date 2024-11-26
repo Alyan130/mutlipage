@@ -45,8 +45,8 @@
 }
 
 .mlinkbar,.linkbar li:hover{
-    border-bottom: 1px #3DB8A5 solid;
-    background-color: rgb(62, 59, 59);
+text-decoration:underline;
+  color: #00c5b9;;
 }
 
 

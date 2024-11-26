@@ -31,9 +31,9 @@ export default function Header(){
   <SheetTrigger className="menuicon"><MenuIcon/></SheetTrigger>
   <SheetContent  className="container">
   <ul className="mlinkbar">
-         <Link href={""}><li>MAIN</li></Link>
-         <Link href={""}><li>ABOUT</li></Link>
-         <Link href={""}><li>GAME FEATURES</li></Link>
+         <Link href={"/"}><li>MAIN</li></Link>
+         <Link href={"/about"}><li>ABOUT</li></Link>
+         <Link href={"/buynow"}><li>GAME FEATURES</li></Link>
         </ul>
   </SheetContent>
 </Sheet>
