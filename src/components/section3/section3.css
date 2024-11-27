@@ -112,3 +112,11 @@ color: black;
 }
 
 
+@media (min-width:769px) and (max-width:1024px){
+    .image{
+        width:400px;
+    }
+    .textc{
+        width: 50%;
+    }
+}

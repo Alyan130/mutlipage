@@ -68,6 +68,11 @@ cursor: pointer;
     line-height: 238px;
     
 }
+
+.video{
+    opacity: 0.43;
+}
+
 .content p{
     font-size: 20px;
     margin-top:0px;
